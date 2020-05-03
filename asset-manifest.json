@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lokto/static/css/main.d3e480bd.chunk.css",
+    "main.js": "/lokto/static/js/main.b3d51228.chunk.js",
+    "main.js.map": "/lokto/static/js/main.b3d51228.chunk.js.map",
+    "runtime-main.js": "/lokto/static/js/runtime-main.a45a64a0.js",
+    "runtime-main.js.map": "/lokto/static/js/runtime-main.a45a64a0.js.map",
+    "static/js/2.fef9fd1b.chunk.js": "/lokto/static/js/2.fef9fd1b.chunk.js",
+    "static/js/2.fef9fd1b.chunk.js.map": "/lokto/static/js/2.fef9fd1b.chunk.js.map",
+    "index.html": "/lokto/index.html",
+    "precache-manifest.fde919eaa43a74406dccc6f66ee1906f.js": "/lokto/precache-manifest.fde919eaa43a74406dccc6f66ee1906f.js",
+    "service-worker.js": "/lokto/service-worker.js",
+    "static/css/main.d3e480bd.chunk.css.map": "/lokto/static/css/main.d3e480bd.chunk.css.map",
+    "static/js/2.fef9fd1b.chunk.js.LICENSE.txt": "/lokto/static/js/2.fef9fd1b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/lokto/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a45a64a0.js",
+    "static/js/2.fef9fd1b.chunk.js",
+    "static/css/main.d3e480bd.chunk.css",
+    "static/js/main.b3d51228.chunk.js"
+  ]
+}
