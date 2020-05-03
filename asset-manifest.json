@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/lokto/static/css/main.d3e480bd.chunk.css",
-    "main.js": "/lokto/static/js/main.b3d51228.chunk.js",
-    "main.js.map": "/lokto/static/js/main.b3d51228.chunk.js.map",
+    "main.js": "/lokto/static/js/main.d2b8d47a.chunk.js",
+    "main.js.map": "/lokto/static/js/main.d2b8d47a.chunk.js.map",
     "runtime-main.js": "/lokto/static/js/runtime-main.a45a64a0.js",
     "runtime-main.js.map": "/lokto/static/js/runtime-main.a45a64a0.js.map",
-    "static/js/2.fef9fd1b.chunk.js": "/lokto/static/js/2.fef9fd1b.chunk.js",
-    "static/js/2.fef9fd1b.chunk.js.map": "/lokto/static/js/2.fef9fd1b.chunk.js.map",
+    "static/js/2.f8b1382a.chunk.js": "/lokto/static/js/2.f8b1382a.chunk.js",
+    "static/js/2.f8b1382a.chunk.js.map": "/lokto/static/js/2.f8b1382a.chunk.js.map",
     "index.html": "/lokto/index.html",
-    "precache-manifest.5981da4ede278eb66efb75a59ffed20a.js": "/lokto/precache-manifest.5981da4ede278eb66efb75a59ffed20a.js",
+    "precache-manifest.7d3494382145075d0da5264f7b05857a.js": "/lokto/precache-manifest.7d3494382145075d0da5264f7b05857a.js",
     "service-worker.js": "/lokto/service-worker.js",
     "static/css/main.d3e480bd.chunk.css.map": "/lokto/static/css/main.d3e480bd.chunk.css.map",
-    "static/js/2.fef9fd1b.chunk.js.LICENSE.txt": "/lokto/static/js/2.fef9fd1b.chunk.js.LICENSE.txt",
+    "static/js/2.f8b1382a.chunk.js.LICENSE.txt": "/lokto/static/js/2.f8b1382a.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/lokto/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a45a64a0.js",
-    "static/js/2.fef9fd1b.chunk.js",
+    "static/js/2.f8b1382a.chunk.js",
     "static/css/main.d3e480bd.chunk.css",
-    "static/js/main.b3d51228.chunk.js"
+    "static/js/main.d2b8d47a.chunk.js"
   ]
 }
