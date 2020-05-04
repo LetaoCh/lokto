@@ -5,6 +5,8 @@ import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import NoSsr from '@material-ui/core/NoSsr';
 import { style, typography } from '@material-ui/system';
+import { positions } from '@material-ui/system';
+import Box from '@material-ui/core/Box';
 
 const variant = style({
   prop: 'variant',
@@ -22,16 +24,25 @@ const Text = styled.span`
 
 const theme = {
   typography: {
-    h1: {
-      fontSize: 25,
+    greeting: {
+      fontSize: 45,
       lineHeight: 1.5,
       whiteSpace: "normal",
+      align: "left",
     },
-    h2: {
+    normal: {
+      fontSize: 20,
+      lineHeight: 1.5,
+      whiteSpace: "normal",
+      align: "left",
+    },
+    keywords: {
       fontSize: 25,
       lineHeight: 1.5,
       whiteSpace: "normal",
       color: "#FFCB05",
+      align: "left",
+      textDecoration: "underline",
     },
   },
 };
@@ -40,32 +51,45 @@ export default function HomePage() {
   return (
     <NoSsr>
       <ThemeProvider theme={theme}>
-        <div>
-          <Text variant="h1" as="div">
+      <Box 
+        width={430}
+        align="left"
+        left="50%"
+        top="55%"
+        position='absolute'>
+          <Text variant="greeting" as="div">
             Ciao! I am Letao.&nbsp;
           </Text>
-          <Text variant="h1">
+          <Text variant="normal">
             I am a&nbsp;
           </Text>
-          <Text variant="h2">
-            Software Engineer,&nbsp;
+          <Text variant="keywords">
+            Software Engineer
           </Text>
-          <Text variant="h1">
+          <Text variant="normal">
+            ,&nbsp;
+          </Text>
+          <br/>
+          <Text variant="normal">
             a&nbsp;
           </Text>
-          <Text variant="h2">
-            Student&nbsp;
+          <Text variant="keywords">
+            Student
           </Text>
-          <Text variant="h1">
-            from the University of Michigan,&nbsp; 
+          <Text variant="normal">
+            &nbsp;from the University of Michigan,&nbsp; 
           </Text>
-          <Text variant="h1">
-            a&nbsp;
+          <br/>
+          <Text variant="normal">
+            a person that takes&nbsp;
           </Text>
-          <Text variant="h2">
-            person that take Photos.&nbsp;
+          <Text variant="keywords">
+            Photos
           </Text>
-        </div>
+          <Text variant="normal">
+            .&nbsp;
+          </Text>
+        </Box>
       </ThemeProvider>
     </NoSsr>
   );
