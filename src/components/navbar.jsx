@@ -7,7 +7,7 @@ export default class NavBar extends Component {
     return (
       <div>
         <Navbar bg="light" variant="light">
-          <Navbar.Brand href="#home">Letao's Page</Navbar.Brand>
+          <Navbar.Brand>Letao Chen</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="#home">About</Nav.Link>
             <Nav.Link href="#features">Experience</Nav.Link>
