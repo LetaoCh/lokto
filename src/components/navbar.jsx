@@ -12,6 +12,11 @@ export default class NavBar extends Component {
             <Nav.Link href="#home">About</Nav.Link>
             <Nav.Link href="#features">Experience</Nav.Link>
             <Nav.Link href="#pricing">Photography</Nav.Link>
+            <Nav.Link
+              href="https://drive.google.com/file/d/1DJQPZrm4v3E9V_TOQB0ixAloCXzpRV5O/view?usp=sharing"
+              target="_blank">
+              Resume
+            </Nav.Link>
           </Nav>
         </Navbar>
       </div>

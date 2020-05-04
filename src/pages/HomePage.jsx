@@ -1,12 +1,10 @@
-// import React from 'react'
-// import Button from 'react-bootstrap/Button'
-
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import NoSsr from '@material-ui/core/NoSsr';
 import { style, typography } from '@material-ui/system';
-import { positions } from '@material-ui/system';
 import Box from '@material-ui/core/Box';
+import Link from '@material-ui/core/Link';
+import Button from 'react-bootstrap/Button'
 
 const variant = style({
   prop: 'variant',
@@ -40,7 +38,7 @@ const theme = {
       fontSize: 25,
       lineHeight: 1.5,
       whiteSpace: "normal",
-      color: "#FFCB05",
+      color: "#e1ac01",
       align: "left",
       textDecoration: "underline",
     },
@@ -51,12 +49,12 @@ export default function HomePage() {
   return (
     <NoSsr>
       <ThemeProvider theme={theme}>
-      <Box 
-        width={430}
-        align="left"
-        left="50%"
-        top="55%"
-        position='absolute'>
+        <Box
+          width={430}
+          align="left"
+          left="61.8%"
+          top="61.8%"
+          position='absolute'>
           <Text variant="greeting" as="div">
             Ciao! I am Letao.&nbsp;
           </Text>
@@ -69,7 +67,7 @@ export default function HomePage() {
           <Text variant="normal">
             ,&nbsp;
           </Text>
-          <br/>
+          <br />
           <Text variant="normal">
             a&nbsp;
           </Text>
@@ -77,41 +75,31 @@ export default function HomePage() {
             Student
           </Text>
           <Text variant="normal">
-            &nbsp;from the University of Michigan,&nbsp; 
+            &nbsp;from the University of Michigan,&nbsp;
           </Text>
-          <br/>
+          <br />
           <Text variant="normal">
             a person that takes&nbsp;
           </Text>
-          <Text variant="keywords">
-            Photos
-          </Text>
+          <Link href="https://www.instagram.com/itsumo0628/" target="_blank">
+            <Text variant="keywords">
+              Photos
+            </Text>
+          </Link>
           <Text variant="normal">
             .&nbsp;
           </Text>
+          <br />
+          <br />
+          <Button 
+            variant="outline-dark"
+            href="https://drive.google.com/file/d/1DJQPZrm4v3E9V_TOQB0ixAloCXzpRV5O/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer">
+              View Resume <i className="fa fa-download" aria-hidden="true"></i>
+          </Button>
         </Box>
       </ThemeProvider>
     </NoSsr>
   );
 }
-
-
-// export default function HomePage() {
-//   return (
-//     <div>
-//         <h1>Ciao! <br />I'm Letao.</h1>
-//         <h4>It is nice to meet you here!</h4>
-//         <br />
-//         <h5>I am currently a rising senior majoring in computer science 
-//           <br />and business at the University of Michigan.</h5>
-//         <Button variant="outline-primary">
-//           <a
-//             href="https://drive.google.com/file/d/1DJQPZrm4v3E9V_TOQB0ixAloCXzpRV5O/view?usp=sharing"
-//             target="_blank"
-//             rel="noopener noreferrer">
-//             View Resume <i className="fa fa-download" aria-hidden="true"></i>
-//           </a>
-//         </Button>
-//       </div>
-//   )
-// }
