@@ -1,10 +1,11 @@
 import React from 'react';
-import { Route, Switch, BrowserRouter, HashRouter } from 'react-router-dom'
+import { Route, Switch, HashRouter } from 'react-router-dom'
 import './App.css';
 import NavBar from './components/navbar'
 import Footer from './components/footer'
 import HomePage from './pages/HomePage'
 import PhotoPage from './pages/PhotoPage'
+import AboutPage from './pages/AboutPage'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <NavBar></NavBar>
         <Switch>
           <Route exact path="/" component={HomePage} />
+          <Route path="/about" component={AboutPage} />
           <Route path="/photography" component={PhotoPage} />
         </Switch>
         <Footer></Footer>

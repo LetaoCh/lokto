@@ -38,11 +38,17 @@ function shuffle(array) {
 
 export default function PhotoPage() {
   const classes = useStyles();
+
+  // Randomly choose 50 images from the photoData
   shuffle(photoData);
-  const subphotoData = photoData.slice(0, 100);
+  const subphotoData = photoData.slice(0, 50);
+
+  let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  let columns = Math.floor((width / 1200) * 6);
+
   return (
     <div className={classes.root}>
-      <GridList cellHeight={200} className={classes.gridList} cols={6}>
+      <GridList cellHeight={200} className={classes.gridList} cols={columns}>
         {subphotoData.map((tile) => (
           <GridListTile key={tile.img} cols={tile.cols || 1}>
             <img src={tile.img} alt={tile.title} />
