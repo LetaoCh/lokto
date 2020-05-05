@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/lokto/static/css/main.d3e480bd.chunk.css",
-    "main.js": "/lokto/static/js/main.4d1ef690.chunk.js",
-    "main.js.map": "/lokto/static/js/main.4d1ef690.chunk.js.map",
+    "main.js": "/lokto/static/js/main.221b3c40.chunk.js",
+    "main.js.map": "/lokto/static/js/main.221b3c40.chunk.js.map",
     "runtime-main.js": "/lokto/static/js/runtime-main.a45a64a0.js",
     "runtime-main.js.map": "/lokto/static/js/runtime-main.a45a64a0.js.map",
-    "static/js/2.f1028c53.chunk.js": "/lokto/static/js/2.f1028c53.chunk.js",
-    "static/js/2.f1028c53.chunk.js.map": "/lokto/static/js/2.f1028c53.chunk.js.map",
+    "static/js/2.b977bd5f.chunk.js": "/lokto/static/js/2.b977bd5f.chunk.js",
+    "static/js/2.b977bd5f.chunk.js.map": "/lokto/static/js/2.b977bd5f.chunk.js.map",
     "index.html": "/lokto/index.html",
-    "precache-manifest.4e765561006b01755e49d295f8ac7f02.js": "/lokto/precache-manifest.4e765561006b01755e49d295f8ac7f02.js",
+    "precache-manifest.6271ebe03bfbe8f609b476c5b20d05cb.js": "/lokto/precache-manifest.6271ebe03bfbe8f609b476c5b20d05cb.js",
     "service-worker.js": "/lokto/service-worker.js",
     "static/css/main.d3e480bd.chunk.css.map": "/lokto/static/css/main.d3e480bd.chunk.css.map",
-    "static/js/2.f1028c53.chunk.js.LICENSE.txt": "/lokto/static/js/2.f1028c53.chunk.js.LICENSE.txt"
+    "static/js/2.b977bd5f.chunk.js.LICENSE.txt": "/lokto/static/js/2.b977bd5f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a45a64a0.js",
-    "static/js/2.f1028c53.chunk.js",
+    "static/js/2.b977bd5f.chunk.js",
     "static/css/main.d3e480bd.chunk.css",
-    "static/js/main.4d1ef690.chunk.js"
+    "static/js/main.221b3c40.chunk.js"
   ]
 }
