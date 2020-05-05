@@ -12,8 +12,8 @@ function App() {
       <div className="App">
         <NavBar></NavBar>
         <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/photo" component={PhotoPage} />
+          <Route exact path="/lokto" component={HomePage} />
+          <Route path="/lokto/photo" component={PhotoPage} />
         </Switch>
         <Footer></Footer>
       </div>
