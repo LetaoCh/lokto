@@ -142,7 +142,7 @@ class AboutPage extends React.Component {
               <Text variant="subtitle" as="div">
                 Me as a photographer and traveler
               </Text>
-              I travel lot. I have been to every major cities in Australia. 
+              I travel lot. I have been to every major city in Australia. 
               My current plan is to visit every perfecture in Japan, and I am 
               halfway through. I also take photos when I travel. Please click into
               my&nbsp;

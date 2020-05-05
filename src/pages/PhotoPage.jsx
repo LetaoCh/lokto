@@ -7,7 +7,6 @@ import styled, { ThemeProvider } from 'styled-components';
 import NoSsr from '@material-ui/core/NoSsr';
 import { style, typography } from '@material-ui/system';
 import Box from '@material-ui/core/Box';
-import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -46,41 +45,10 @@ const theme = {
       align: "left",
     },
     normal: {
-      fontSize: 25,
+      fontSize: 20,
       lineHeight: 1.5,
       whiteSpace: "normal",
       align: "left",
-    },
-    subtitle: {
-      fontSize: 30,
-      lineHeight: 1.5,
-      whiteSpace: "normal",
-      align: "left",
-      textDecoration: "underline",
-    },
-    applekeywords: {
-      fontSize: 25,
-      lineHeight: 1.5,
-      whiteSpace: "normal",
-      color: "white",
-      align: "left",
-      background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
-      boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-      border: 0,
-      borderRadius: 3,
-      padding: '0 5px',
-    },
-    umkeywords: {
-      fontSize: 25,
-      lineHeight: 1.5,
-      whiteSpace: "normal",
-      color: "white",
-      align: "left",
-      background: 'linear-gradient(45deg, #007BA7 30%, #FFDB58 90%)',
-      boxShadow: '0 3px 5px 2px rgba(255, 203, 5, .3)',
-      border: 0,
-      borderRadius: 3,
-      padding: '0 5px',
     },
   },
 };
@@ -111,7 +79,7 @@ export default function PhotoPage() {
   const subphotoData = photoData.slice(0, 50);
 
   let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-  let columns = Math.floor((width / 1200) * 6);
+  let columns = Math.floor((width / 1200) * 8);
 
   return (
     <div>
@@ -137,7 +105,7 @@ export default function PhotoPage() {
               be a photographer. I just want to be a person that takes photos.<br />
               <br />
               By the way, if you refresh the page, new photos will be populated.<br />
-
+              <br />
             </Text>
           </Box>
         </ThemeProvider>
