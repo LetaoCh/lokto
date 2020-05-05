@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lokto/precache-manifest.6271ebe03bfbe8f609b476c5b20d05cb.js"
+  "/lokto/precache-manifest.4cc64a0bcff4176a9e5e9965c689c69b.js"
 );
 
 self.addEventListener('message', (event) => {
