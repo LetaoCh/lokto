@@ -9,7 +9,7 @@ import AboutPage from './pages/AboutPage'
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <div className="App">
         <NavBar></NavBar>
         <Switch>

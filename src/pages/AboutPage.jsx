@@ -72,7 +72,7 @@ class AboutPage extends React.Component {
       <NoSsr>
         <ThemeProvider theme={theme}>
           <Box
-            width="50%"
+            width="60%"
             align="left"
             left="10%"
             top="10%"
