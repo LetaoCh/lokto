@@ -9,10 +9,10 @@ export default class NavBar extends Component {
         <Navbar bg="light" variant="light">
           <Navbar.Brand>Letao Chen</Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="/lokto">Home</Nav.Link>
-            <Nav.Link href="/lokto/about">About</Nav.Link>
-            <Nav.Link href="/lokto/experience">Experience</Nav.Link>
-            <Nav.Link href="/lokto/photo">Photography</Nav.Link>
+            <Nav.Link href="/lokto/#/">Home</Nav.Link>
+            <Nav.Link href="/lokto/#/about">About</Nav.Link>
+            <Nav.Link href="/lokto/#/experience">Experience</Nav.Link>
+            <Nav.Link href="/lokto/#/photography">Photography</Nav.Link>
             <Nav.Link
               href="https://drive.google.com/file/d/1DJQPZrm4v3E9V_TOQB0ixAloCXzpRV5O/view?usp=sharing"
               target="_blank">

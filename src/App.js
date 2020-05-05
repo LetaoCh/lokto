@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch, BrowserRouter } from 'react-router-dom'
+import { Route, Switch, BrowserRouter, HashRouter } from 'react-router-dom'
 import './App.css';
 import NavBar from './components/navbar'
 import Footer from './components/footer'
@@ -8,16 +8,16 @@ import PhotoPage from './pages/PhotoPage'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <NavBar></NavBar>
         <Switch>
-          <Route exact path="/lokto" component={HomePage} />
-          <Route path="/lokto/photo" component={PhotoPage} />
+          <Route exact path="/" component={HomePage} />
+          <Route path="/photography" component={PhotoPage} />
         </Switch>
         <Footer></Footer>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
