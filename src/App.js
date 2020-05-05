@@ -6,6 +6,7 @@ import NavBar from './components/navbar'
 import Footer from './components/footer'
 
 import HomePage from './pages/HomePage'
+import PhotoPage from './pages/PhotoPage'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="" component={HomePage} />
       </Switch>
       <Footer></Footer>
+      <PhotoPage></PhotoPage>
     </div>
   );
 }
