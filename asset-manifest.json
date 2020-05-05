@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lokto/static/css/main.d3e480bd.chunk.css",
-    "main.js": "/lokto/static/js/main.d7beaa47.chunk.js",
-    "main.js.map": "/lokto/static/js/main.d7beaa47.chunk.js.map",
+    "main.js": "/lokto/static/js/main.f0428740.chunk.js",
+    "main.js.map": "/lokto/static/js/main.f0428740.chunk.js.map",
     "runtime-main.js": "/lokto/static/js/runtime-main.a45a64a0.js",
     "runtime-main.js.map": "/lokto/static/js/runtime-main.a45a64a0.js.map",
     "static/js/2.f1028c53.chunk.js": "/lokto/static/js/2.f1028c53.chunk.js",
     "static/js/2.f1028c53.chunk.js.map": "/lokto/static/js/2.f1028c53.chunk.js.map",
     "index.html": "/lokto/index.html",
-    "precache-manifest.d666d5dcb0d74a6a18dbca40539014be.js": "/lokto/precache-manifest.d666d5dcb0d74a6a18dbca40539014be.js",
+    "precache-manifest.04f80fbfe25d4f0d6d72c37b068569e4.js": "/lokto/precache-manifest.04f80fbfe25d4f0d6d72c37b068569e4.js",
     "service-worker.js": "/lokto/service-worker.js",
     "static/css/main.d3e480bd.chunk.css.map": "/lokto/static/css/main.d3e480bd.chunk.css.map",
     "static/js/2.f1028c53.chunk.js.LICENSE.txt": "/lokto/static/js/2.f1028c53.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a45a64a0.js",
     "static/js/2.f1028c53.chunk.js",
     "static/css/main.d3e480bd.chunk.css",
-    "static/js/main.d7beaa47.chunk.js"
+    "static/js/main.f0428740.chunk.js"
   ]
 }
