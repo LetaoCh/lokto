@@ -51,7 +51,7 @@ export default function PhotoPage() {
       <GridList cellHeight={200} className={classes.gridList} cols={columns}>
         {subphotoData.map((tile) => (
           <GridListTile key={tile.img} cols={tile.cols || 1}>
-            <img src={tile.img} alt={tile.title} />
+            <img src={process.env.PUBLIC_URL + tile.img} alt={tile.title} />
           </GridListTile>
         ))}
       </GridList>
