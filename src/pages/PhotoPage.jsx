@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   },
   gridList: {
     width: "70%",
-    height: "75%",
+    height: "70%",
   },
 }));
 
@@ -39,10 +39,11 @@ function shuffle(array) {
 export default function PhotoPage() {
   const classes = useStyles();
   shuffle(photoData);
+  const subphotoData = photoData.slice(0, 100);
   return (
     <div className={classes.root}>
       <GridList cellHeight={200} className={classes.gridList} cols={6}>
-        {photoData.map((tile) => (
+        {subphotoData.map((tile) => (
           <GridListTile key={tile.img} cols={tile.cols || 1}>
             <img src={tile.img} alt={tile.title} />
           </GridListTile>
