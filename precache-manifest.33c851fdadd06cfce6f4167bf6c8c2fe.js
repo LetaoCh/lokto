@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5c836d62938c116ecedf70871d1ffcd9",
+    "revision": "66fa70e90d59ba3989bb76f60260399e",
     "url": "/lokto/index.html"
   },
   {
-    "revision": "2a6ddd476c08e8b31cc3",
+    "revision": "5f2160679333b15dbf20",
     "url": "/lokto/static/css/main.d3e480bd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lokto/static/js/2.3d35cbc4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2a6ddd476c08e8b31cc3",
-    "url": "/lokto/static/js/main.0a1d98ca.chunk.js"
+    "revision": "5f2160679333b15dbf20",
+    "url": "/lokto/static/js/main.068108b5.chunk.js"
   },
   {
     "revision": "bfcc526488753a4a51eb",
