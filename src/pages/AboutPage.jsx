@@ -55,12 +55,17 @@ class AboutPage extends React.Component {
           top="10%"
           position='absolute'>
           <Text variant="greeting" as="div">
-            My name is Letao Chen.&nbsp;
+            Ciao! I am Letao Chen.&nbsp;
+          </Text>
+          <Text variant="greeting" as="div">
+            你好啊！我系陳樂韜。&nbsp;
           </Text>
           <Text variant="normal">
             Letao Chen (陈乐韬) is my legal name as I was born and raised in a 
             Cantonese family in Mainland China. However, my families usually call
-            my Cantonese name, Chan Lok To (陳樂韜), at home.<br/>
+            my Cantonese name, Chan Lok To (陳樂韜), at home. Therefore, you can
+            see that sometimes I use Letao as my name, and sometimes I use Lokto.
+            They are the same name but in different languages.<br/>
             <br/>
             I am currently a student at the University of Michigan majoring in
             Computer Science and Business Administration. I look forward to pursue
@@ -71,7 +76,8 @@ class AboutPage extends React.Component {
             In terms of my interest in computer science, I am interested in
             operating system and computer architecture. I finished 
             Introduction to Operating Systems (EECS 482) at UofM and am currently
-            taking Computer Architecture (ELE 475) from Princeton via Coursera.&nbsp;
+            taking Computer Architecture (ELE 475) from Princeton via Coursera.
+            Hopefully I can finish ELE 475 before my internship starts.&nbsp;
           </Text>
         </Box>
       </ThemeProvider>
