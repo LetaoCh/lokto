@@ -3,6 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import photoData from './../photo.json';
+import styled, { ThemeProvider } from 'styled-components';
+import NoSsr from '@material-ui/core/NoSsr';
+import { style, typography } from '@material-ui/system';
+import Box from '@material-ui/core/Box';
+import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -17,6 +22,68 @@ const useStyles = makeStyles((theme) => ({
     height: "70%",
   },
 }));
+
+const variant = style({
+  prop: 'variant',
+  cssProperty: false,
+  themeKey: 'typography',
+});
+
+// ⚠ Text is already defined in the global context:
+// https://developer.mozilla.org/en-US/docs/Web/API/Text/Text.
+const Text = styled.span`
+  font-family: Helvetica;
+  ${variant}
+  ${typography}
+`;
+
+const theme = {
+  typography: {
+    greeting: {
+      fontSize: 45,
+      lineHeight: 1.5,
+      whiteSpace: "normal",
+      align: "left",
+    },
+    normal: {
+      fontSize: 25,
+      lineHeight: 1.5,
+      whiteSpace: "normal",
+      align: "left",
+    },
+    subtitle: {
+      fontSize: 30,
+      lineHeight: 1.5,
+      whiteSpace: "normal",
+      align: "left",
+      textDecoration: "underline",
+    },
+    applekeywords: {
+      fontSize: 25,
+      lineHeight: 1.5,
+      whiteSpace: "normal",
+      color: "white",
+      align: "left",
+      background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+      boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+      border: 0,
+      borderRadius: 3,
+      padding: '0 5px',
+    },
+    umkeywords: {
+      fontSize: 25,
+      lineHeight: 1.5,
+      whiteSpace: "normal",
+      color: "white",
+      align: "left",
+      background: 'linear-gradient(45deg, #007BA7 30%, #FFDB58 90%)',
+      boxShadow: '0 3px 5px 2px rgba(255, 203, 5, .3)',
+      border: 0,
+      borderRadius: 3,
+      padding: '0 5px',
+    },
+  },
+};
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
@@ -47,14 +114,43 @@ export default function PhotoPage() {
   let columns = Math.floor((width / 1200) * 6);
 
   return (
-    <div className={classes.root}>
-      <GridList cellHeight={200} className={classes.gridList} cols={columns}>
-        {subphotoData.map((tile) => (
-          <GridListTile key={tile.img} cols={tile.cols || 1}>
-            <img src={process.env.PUBLIC_URL + tile.img} alt={tile.title} />
-          </GridListTile>
-        ))}
-      </GridList>
+    <div>
+      <NoSsr>
+        <ThemeProvider theme={theme}>
+          <Box
+            width="900px"
+            align="left"
+            left="15%"
+            position="relative"
+            marginTop='50px'
+            marginBottom='10px'>
+            <Text variant="greeting" as="div">
+              Photo
+            </Text>
+            <Text variant="normal">
+              I take photos but I won't call myself a photographer. I think
+              photography is not about the cameras I use, the techniques I apply,
+              or the places I visit. It is about the mood, about self satisfaction.
+              The most important thing is that I am standing at the place,
+              admiring the view, and then taking the shot. My photos are special
+              to me becasue they were taken by me at the places I love. I shall never
+              be a photographer. I just want to be a person that takes photos.<br />
+              <br />
+              By the way, if you refresh the page, new photos will be populated.<br />
+
+            </Text>
+          </Box>
+        </ThemeProvider>
+      </NoSsr>
+      <div className={classes.root}>
+        <GridList cellHeight={200} className={classes.gridList} cols={columns}>
+          {subphotoData.map((tile) => (
+            <GridListTile key={tile.img} cols={tile.cols || 1}>
+              <img src={process.env.PUBLIC_URL + tile.img} alt={tile.title} />
+            </GridListTile>
+          ))}
+        </GridList>
+      </div>
     </div>
   );
 }

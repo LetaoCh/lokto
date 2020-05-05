@@ -12,7 +12,7 @@ export default class NavBar extends Component {
             <Nav.Link href="/#/">Home</Nav.Link>
             <Nav.Link href="/#/about">About</Nav.Link>
             <Nav.Link href="/#/experience">Experience</Nav.Link>
-            <Nav.Link href="/#/photography">Photography</Nav.Link>
+            <Nav.Link href="/#/photo">Photo</Nav.Link>
             <Nav.Link
               href="https://drive.google.com/file/d/1DJQPZrm4v3E9V_TOQB0ixAloCXzpRV5O/view?usp=sharing"
               target="_blank">
