@@ -81,7 +81,7 @@ export default function HomePage() {
           <Text variant="normal">
             a person that takes&nbsp;
           </Text>
-          <Link href="https://www.instagram.com/itsumo0628/" target="_blank">
+          <Link href="/#/photo" target="_blank">
             <Text variant="keywords">
               Photos
             </Text>

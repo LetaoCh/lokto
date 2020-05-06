@@ -87,27 +87,27 @@ class AboutPage extends React.Component {
             </Text>
             <Text variant="normal">
               I am currently a rising senior at the&nbsp;
-              <Text variant="umkeywords">University of Michigan</Text> majoring 
+              <Text variant="umkeywords">University of Michigan</Text> majoring
               in Computer Science and Business. I look forward to pursue
               a career as a software engineer. In addition, I will be
-              interning at <Text variant="applekeywords">Apple</Text> 
-              &nbsp;this summer! Hooooooraaaaaay! I will try my best, and we 
+              interning at <Text variant="applekeywords">Apple</Text>
+              &nbsp;this summer! Hooooooraaaaaay! I will try my best, and we
               will see how it goes!<br />
               <br />
               <Text variant="subtitle" as="div">
                 Me as a programmer
               </Text>
               In terms of my interests in computer science, I am interested in
-              operating system and computer architecture. I finished Introduction 
+              operating system and computer architecture. I finished Introduction
               to Operating Systems (EECS 482) at UofM and am currently
               taking Computer Architecture (ELE 475) from Princeton via Coursera.
               Hopefully I can finish ELE 475 before my internship starts.<br />
               <br />
               As a software engineer, I am proficient in C++, C, and Python, and
-              am familiar with JavaScript. I have experience in system level 
-              programming, such as building a thread library, virtual memory 
-              pager, and file system. For web development, I have built 
-              dashboards to visualize data and websites like this page using 
+              am familiar with JavaScript. I have experience in system level
+              programming, such as building a thread library, virtual memory
+              pager, and file system. For web development, I have built
+              dashboards to visualize data and websites like this page using
               React and Django. In addition, I have been working on some machine
               learning projects via research and school work, such as classifying
               low-back pain using SVM and classifying food images using CNN.<br />
@@ -115,8 +115,8 @@ class AboutPage extends React.Component {
               <Text variant="subtitle" as="div">
                 Me as a person
               </Text>
-              I shall start by talking about my name. Letao Chen (陈乐韬) is my 
-              legal name in Mandarin as I was born and raised in a Cantonese 
+              I shall start by talking about my name. Letao Chen (陈乐韬) is my
+              legal name in Mandarin as I was born and raised in a Cantonese
               family in Mainland China. However, my families usually call
               my Cantonese name, Chan Lok To (陳樂韜), at home. Therefore,
               sometimes I use Letao, and other times I use Lokto as my name.
@@ -124,26 +124,26 @@ class AboutPage extends React.Component {
               <br />
               There is nothing special about me as a person. But I always believe
               one thing --- "Love is hate, and hate is love." I believe that love
-              and hate are closely related or even the same thing. One 
-              example/evidence is that when a person you love suddenly betrays 
-              you, he/she will become your biggest enemy at that moment. 
+              and hate are closely related or even the same thing. One
+              example/evidence is that when a person you love suddenly betrays
+              you, he/she will become your biggest enemy at that moment.
               When your biggest enemy does something really warm and nice to you,
-              he/she will suddenly become a person you love at the moment. 
-              Given that love and hate can be converted into each other easily, 
+              he/she will suddenly become a person you love at the moment.
+              Given that love and hate can be converted into each other easily,
               I think the worst thing you can do to someone is to be apathetic
               or indifferent toward him/her.<br />
               <br />
               Therefore, when I love someone, I will try hard to love him/her.
               When I hate someone, I will try hard to hate him/her as I know
               love is hate and hate is love. I also try not to be apathetic to
-              someone as I know the worst thing in the world is being ignored. 
+              someone as I know the worst thing in the world is being ignored.
               But you know, it is hard as all of us are weak human beings<br />
               <br />
               <Text variant="subtitle" as="div">
                 Me as a photographer and traveler
               </Text>
-              I travel lot. I have been to every major city in Australia. 
-              My current plan is to visit every perfecture in Japan, and I am 
+              I travel lot. I have been to every major city in Australia.
+              My current plan is to visit every perfecture in Japan, and I am
               halfway through. I also take photos when I travel. Please click into
               my&nbsp;
               <Link href="/#/photo" target="_blank">
