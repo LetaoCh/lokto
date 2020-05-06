@@ -25,19 +25,19 @@ const theme = {
     greeting: {
       fontSize: 45,
       lineHeight: 1.5,
-      whiteSpace: "normal",
+      whiteSpace: "nowrap",
       align: "left",
     },
     normal: {
       fontSize: 20,
       lineHeight: 1.5,
-      whiteSpace: "normal",
+      whiteSpace: "nowrap",
       align: "left",
     },
     keywords: {
       fontSize: 25,
       lineHeight: 1.5,
-      whiteSpace: "normal",
+      whiteSpace: "nowrap",
       color: "#e1ac01",
       align: "left",
       textDecoration: "underline",
@@ -50,12 +50,10 @@ export default function HomePage() {
     <NoSsr>
       <ThemeProvider theme={theme}>
         <Box
-          width={430}
           align="left"
           left="61.8%"
-          top="61.8%"
-          position='absolute'
-          marginBottom="100px">
+          bottom="19.1%"
+          position="absolute">
           <Text variant="greeting" as="div">
             Ciao! I am Letao.&nbsp;
           </Text>

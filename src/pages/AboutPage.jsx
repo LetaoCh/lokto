@@ -59,7 +59,6 @@ const theme = {
       color: "white",
       align: "left",
       background: 'linear-gradient(45deg, #007BA7 30%, #FFDB58 90%)',
-      boxShadow: '0 3px 5px 2px rgba(255, 203, 5, .3)',
       border: 0,
       borderRadius: 3,
       padding: '0 5px',
@@ -75,15 +74,12 @@ class AboutPage extends React.Component {
           <Box
             width="800px"
             align="left"
-            left="10%"
-            top="10%"
+            left="100px"
+            top="100px"
             position='absolute'
             marginBottom='200px'>
             <Text variant="greeting" as="div">
-              Ciao! I am Letao Chen.
-            </Text>
-            <Text variant="greeting" as="div">
-              你好啊！我系陳樂韜。
+              What's up! I am Letao Chen.
             </Text>
             <Text variant="normal">
               I am currently a rising senior at the&nbsp;
@@ -113,33 +109,6 @@ class AboutPage extends React.Component {
               low-back pain using SVM and classifying food images using CNN.<br />
               <br />
               <Text variant="subtitle" as="div">
-                Me as a person
-              </Text>
-              I shall start by talking about my name. Letao Chen (陈乐韬) is my
-              legal name in Mandarin as I was born and raised in a Cantonese
-              family in Mainland China. However, my families usually call
-              my Cantonese name, Chan Lok To (陳樂韜), at home. Therefore,
-              sometimes I use Letao, and other times I use Lokto as my name.
-              They are the same name but in different languages.<br />
-              <br />
-              There is nothing special about me as a person. But I always believe
-              one thing --- "Love is hate, and hate is love." I believe that love
-              and hate are closely related or even the same thing. One
-              example/evidence is that when a person you love suddenly betrays
-              you, he/she will become your biggest enemy at that moment.
-              When your biggest enemy does something really warm and nice to you,
-              he/she will suddenly become a person you love at the moment.
-              Given that love and hate can be converted into each other easily,
-              I think the worst thing you can do to someone is to be apathetic
-              or indifferent toward him/her.<br />
-              <br />
-              Therefore, when I love someone, I will try hard to love him/her.
-              When I hate someone, I will try hard to hate him/her as I know
-              love is hate and hate is love. I also try not to be apathetic to
-              someone as I know the worst thing in the world is being ignored.
-              But you know, it is hard as all of us are weak human beings<br />
-              <br />
-              <Text variant="subtitle" as="div">
                 Me as a photographer and traveler
               </Text>
               I travel lot. I have been to every major city in Australia.
@@ -152,7 +121,7 @@ class AboutPage extends React.Component {
               <Link href="https://www.instagram.com/itsumo0628/" target="_blank">
                 Instagram
               </Link> for more photos.<br />
-              <br />
+              <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
             </Text>
           </Box>
         </ThemeProvider>
