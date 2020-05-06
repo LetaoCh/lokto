@@ -54,7 +54,8 @@ export default function HomePage() {
           align="left"
           left="61.8%"
           top="61.8%"
-          position='absolute'>
+          position='absolute'
+          marginBottom="100px">
           <Text variant="greeting" as="div">
             Ciao! I am Letao.&nbsp;
           </Text>
