@@ -109,7 +109,7 @@ class AboutPage extends React.Component {
               low-back pain using SVM and classifying food images using CNN.<br />
               <br />
               <Text variant="subtitle" as="div">
-                Me as a photographer and traveler
+                Me as a person that takes photos and a traveler
               </Text>
               I travel lot. I have been to every major city in Australia.
               My current plan is to visit every perfecture in Japan, and I am

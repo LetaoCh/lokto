@@ -74,7 +74,7 @@ export default function HomePage() {
             Student
           </Text>
           <Text variant="normal">
-            &nbsp;from the University of Michigan,&nbsp;
+            &nbsp;from the University of Michigan, and
           </Text>
           <br />
           <Text variant="normal">
