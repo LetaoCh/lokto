@@ -22,6 +22,30 @@ const Text = styled.span`
 
 const theme = {
   typography: {
+    time: {
+      position: "absolute",
+      width: "200px",
+      height: "200px",
+      border: "2px solid black",
+      lineHeight: "200px",
+      fontSize: "40px",
+      fontWeight: "bold",
+      textAlign: "center",
+      transform: "rotateY(0deg) translateZ(100px)",
+      background: "hsla(0, 100%, 50%, 0.7)",
+    },
+    shadow: {
+      position: "absolute",
+      width: "200px",
+      height: "200px",
+      border: "2px solid black",
+      lineHeight: "200px",
+      fontSize: "40px",
+      fontWeight: "bold",
+      textAlign: "center",
+      transform: "rotateX(-90deg) translateZ(100px) translateY(-200px)",
+      background: "hsla(300, 100%, 50%, 0.7)",
+    },
     greeting: {
       fontSize: 45,
       lineHeight: 1.5,
