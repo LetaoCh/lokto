@@ -3,7 +3,6 @@ import { Route, Switch, HashRouter } from 'react-router-dom'
 import './App.css';
 import NavBar from './components/navbar'
 import Footer from './components/footer'
-import Sundial from './components/sundial'
 import HomePage from './pages/HomePage'
 import PhotoPage from './pages/PhotoPage'
 import AboutPage from './pages/AboutPage'
@@ -13,7 +12,6 @@ function App() {
     <HashRouter>
       <div className="App">
         <NavBar></NavBar>
-        {/* <Sundial></Sundial> */}
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/about" component={AboutPage} />
