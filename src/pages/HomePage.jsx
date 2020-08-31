@@ -116,7 +116,7 @@ export default function HomePage() {
           <br />
           <Button
             variant="outline-dark"
-            href="https://drive.google.com/file/d/1DJQPZrm4v3E9V_TOQB0ixAloCXzpRV5O/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Grr9UBIKYYcfTEhrdQ37n23G8SbZSZO0/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer">
             View Resume <i className="fa fa-download" aria-hidden="true"></i>
