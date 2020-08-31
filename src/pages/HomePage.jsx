@@ -79,13 +79,13 @@ export default function HomePage() {
           bottom="19.1%"
           position="absolute">
           <Text variant="greeting" as="div">
-            Ciao! I am Letao.&nbsp;
+            Hi there! I am Letao.&nbsp;
           </Text>
           <Text variant="normal">
-            I am a&nbsp;
+            I am/was a&nbsp;
           </Text>
           <Text variant="keywords">
-            Software Engineer
+            Software Engineer at Apple
           </Text>
           <Text variant="normal">
             ,&nbsp;

@@ -82,22 +82,18 @@ class AboutPage extends React.Component {
               What's up! I am Letao Chen.
             </Text>
             <Text variant="normal">
-              I am currently a rising senior at the&nbsp;
+              I am a senior at the&nbsp;
               <Text variant="umkeywords">University of Michigan</Text> majoring
-              in Computer Science and Business. I look forward to pursue
-              a career as a software engineer. In addition, I will be
-              interning at <Text variant="applekeywords">Apple</Text>
-              &nbsp;this summer! Hooooooraaaaaay! I will try my best, and we
-              will see how it goes!<br />
+              in Computer Science and Business. Last summer, I interned at&nbsp;
+              <Text variant="applekeywords">Apple</Text>! I was a part of the 
+              SEG and was working closely with our awesome hardware. I look forward to pursue
+              a career as a software engineer.<br />
               <br />
               <Text variant="subtitle" as="div">
                 Me as a programmer
               </Text>
               In terms of my interests in computer science, I am interested in
-              operating system and computer architecture. I finished Introduction
-              to Operating Systems (EECS 482) at UofM and am currently
-              taking Computer Architecture (ELE 475) from Princeton via Coursera.
-              Hopefully I can finish ELE 475 before my internship starts.<br />
+              operating system and computer architecture. <br />
               <br />
               As a software engineer, I am proficient in C++, C, and Python, and
               am familiar with JavaScript. I have experience in system level

@@ -11,10 +11,9 @@ export default class NavBar extends Component {
           <Nav className="mr-auto">
             <Nav.Link href="/#/">Home</Nav.Link>
             <Nav.Link href="/#/about">About</Nav.Link>
-            <Nav.Link href="/#/experience">Experience</Nav.Link>
             <Nav.Link href="/#/photo">Photo</Nav.Link>
             <Nav.Link
-              href="https://drive.google.com/file/d/1DJQPZrm4v3E9V_TOQB0ixAloCXzpRV5O/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Grr9UBIKYYcfTEhrdQ37n23G8SbZSZO0/view?usp=sharing"
               target="_blank">
               Resume
             </Nav.Link>
