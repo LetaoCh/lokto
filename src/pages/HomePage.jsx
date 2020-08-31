@@ -85,10 +85,10 @@ export default function HomePage() {
             I am/was a&nbsp;
           </Text>
           <Text variant="keywords">
-            Software Engineer at Apple
+            Software Engineer
           </Text>
           <Text variant="normal">
-            ,&nbsp;
+            &nbsp;at Apple,&nbsp;
           </Text>
           <br />
           <Text variant="normal">
